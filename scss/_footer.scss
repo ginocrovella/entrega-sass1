@@ -1,0 +1,29 @@
+//variable
+/* ESTILOS DE FOOTER */ 
+$marronclaro: #757544de;
+
+footer {
+    background-color: $marronclaro;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68);
+    .logo {
+        width: 100px;
+        height: 100px;
+        padding: 10px 0px 10px 5px;
+    }
+    div i {
+        color: rgba(0, 0, 0, 0.815);
+        padding: 10px 5px 10px 0px;
+        gap: 30px;
+        font-size: 35px;
+    }
+    i:hover {
+        color: rgb(150, 110, 116);
+    }
+    .icons  {
+        text-align: end;
+    }
+}

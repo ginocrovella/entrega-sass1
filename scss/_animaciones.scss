@@ -1,0 +1,18 @@
+/* ANIMACIONES Y TRANSFORMACIONES */ 
+body {
+    .tituloAnimado {
+        animation-name: titulo;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+    }
+    @keyframes titulo {
+        from /* inicio */ {
+             transform: translate(-100px);
+             opacity: 0;
+            }
+        to /* final */ {
+             transform: translate(0);
+             opacity: 1;
+            }
+    }
+}
